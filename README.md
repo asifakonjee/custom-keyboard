@@ -8,7 +8,6 @@
 
 নকশাটি দাঁড়ায় ২০১৪ সালে; পরের বছর আরও খানিকটা গুছিয়ে নিই। কিন্তু সর্বসাধারণের জন্য উন্মুক্ত করি ২০১৮ সালে, সঙ্গে ছিলে উইন্ডোজ়ে ব্যবহারের জন্য একটি ফাইল। ২০২২-এর ফেব্রুয়ারিতে আরও কিছু হরফ যেমন বৈদিক অনুস্বার এবং সন্ধির চিহ্ন ঢোকাই আর নাগরীর সঙ্ক্ষেপ চিহ্ন বদলে বাংলার সঙ্ক্ষেপ চিহ্ন অন্তর্ভুক্ত করি।
 
-<div align = center><img src="https://raw.githubusercontent.com/asifakonjee/custom-keyboard/main/cg_bkeyb.png"><br><br>
 
 # চিহ্নের দ্ব্যর্থতা নিরসন
 
@@ -65,3 +64,7 @@ sudo chmod + bd-bn.sh
 ```
 
 ## ৩। এরপর আপনার ডেস্কটপ এনভাইরনমেন্টের কিবোর্ড সেটিংস থেকে কিবোর্ড লেআউটটি এড করে নিতে পারবেন।
+
+# লেআউট
+
+<div align = center><img src="https://raw.githubusercontent.com/asifakonjee/custom-keyboard/main/cg_bkeyb.png"><br><br>
