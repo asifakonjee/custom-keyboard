@@ -20,7 +20,7 @@
 
 # ইনস্টলেশন
 ```
-git clone https:github.com/asifakonjee/custom-keyboard.git
+git clone https://github.com/asifakonjee/custom-keyboard.git
 cd custom-keyboard
 sudo chmod + bd-bn.sh
 ./bd-bn.sh
