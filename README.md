@@ -1,4 +1,8 @@
-# হরফের পৌনঃপুন্য-ভিত্তিক বাংলা কিবোর্ড
+# হরফের পৌনঃপুন্য-ভিত্তিক বাংলা কিবোর্ড লেআউট
+
+
+<div align = center><img src="https://raw.githubusercontent.com/asifakonjee/custom-keyboard/main/cg_bkeyb.png"><br><br>
+
 
 ## Author: আবু জার মোঃ আককাস  (Ābu Jār M Ākkās)
 
@@ -63,8 +67,3 @@ sudo chmod + bd-bn.sh
 ```
 
 ## ৩। এরপর আপনার ডেস্কটপ এনভাইরনমেন্টের কিবোর্ড সেটিংস থেকে কিবোর্ড লেআউটটি এড করে নিতে পারবেন।
-
-
-# লেআউট
-
-<div align = center><img src="https://raw.githubusercontent.com/asifakonjee/custom-keyboard/main/cg_bkeyb.png"><br><br>
