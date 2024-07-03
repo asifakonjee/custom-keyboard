@@ -62,7 +62,9 @@ sudo chmod + bd-bn.sh
 ./bd-bn.sh
 ```
 
-## ৩। এরপর আপনার ডেস্কটপ এনভাইরনমেন্টের কিবোর্ড সেটিংস থে কিবোর্ডটি এড করে নিতে পারবেন।
+## ৩। এরপর আপনার ডেস্কটপ এনভাইরনমেন্টের কিবোর্ড সেটিংস থেকে কিবোর্ডট লেআউটটি এড করে নিতে পারবেন।
 
-# লেআউট 
+
+# লেআউট
+
 <div align = center><img src="https://raw.githubusercontent.com/asifakonjee/custom-keyboard/main/cg_bkeyb.png"><br><br>
