@@ -21,4 +21,4 @@
 # ইনস্টলেশন
 
 
-<div align = center><img src="https://raw.githubusercontent.com/asifakonjee/চcustom-keyboard/main/cg_bkeyb.png"><br><br>
+<div align = center><img src="https://raw.githubusercontent.com/asifakonjee/custom-keyboard/main/cg_bkeyb.png"><br><br>
