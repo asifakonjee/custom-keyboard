@@ -44,22 +44,30 @@ if [[ $? -ne 0 ]]; then
     exit 1
 fi
 
+
 # Create or edit the Xorg configuration file to make the new layout persistent
 XORG_CONF="/etc/X11/xorg.conf.d/00-keyboard.conf"
 
 echo "Creating or editing $XORG_CONF to make the new layout persistent..."
-sudo mkdir -p /etc/X11/xorg.conf.d
-echo 'Section "InputClass"
+if [ ! -d /etc/X11/xorg.conf.d ]; then
+    sudo mkdir -p /etc/X11/xorg.conf.d
+fi
+
+# Append the new configuration to the Xorg configuration file
+cat <<EOL | sudo tee -a $XORG_CONF
+Section "InputClass"
     Identifier "system-keyboard"
     MatchIsKeyboard "on"
-    Option "XkbLayout" "'$XKB_LAYOUT_NAME'"
-EndSection' | sudo tee $XORG_CONF
+    Option "XkbLayout" "$XKB_LAYOUT_NAME"
+EndSection
+EOL
 
 # Check if the Xorg configuration file was created or edited successfully
 if [[ $? -ne 0 ]]; then
     echo "Failed to create or edit $XORG_CONF. Exiting."
     exit 1
 fi
+
 
 echo "The custom XKB layout has been integrated successfully."
 echo "You can set the layout temporarily using: setxkbmap $XKB_LAYOUT_NAME"
