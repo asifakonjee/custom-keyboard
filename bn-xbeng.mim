@@ -81,6 +81,9 @@
   ((A--) "–")
   ((A-+) "÷")
   ((A-=) "×")
+  
+  ((A-\() "[")  ; Escaped opening parenthesis 
+  ((A-\)) "]")  ; Escaped closing parenthesis
 
   ("q" "ই")
   ("w" "ম")
